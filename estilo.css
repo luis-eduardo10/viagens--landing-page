@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1508325739122-c57a76313bf4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    font-family: "Outfit", serif;
+}
+
+header {
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding-left: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    padding: 3px 15px;
+    color: rgb(49, 43, 43);
+}
+
+ul a:hover {
+   color: bisque;
+}
+
+.logo {
+    font-size: 49px;
+}
+
+section#banner {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(114, 235, 33);
+}
+
+#banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(20px);
+}
